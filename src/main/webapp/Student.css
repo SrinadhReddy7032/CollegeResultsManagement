@@ -1,0 +1,48 @@
+.sd{
+    background-color: aqua;
+    height:400px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 40px;
+}
+.sd1{
+    background-color: rgb(0, 255, 102);
+    height:350px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 90px;
+}
+.sdi{
+    padding: 20px; 
+}
+.rollname{
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    font-size: medium;
+}
+.submit
+{
+    background-color: blue;
+    height: 40px;
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: medium;
+    border: 0px;
+}
+.year
+{
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    font-size: medium;
+}
+.bimg
+{
+    background-image: url("https://nbkrist.co.in/images/csebuilding.JPG");
+    background-size: cover;
+    height: 100vh;
+}

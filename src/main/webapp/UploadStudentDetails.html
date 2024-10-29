@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UploadStudentDetails.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="uploadstudentdetails" method="post">
+        <div class="bgimg d-flex flex-row justify-content-center">
+            <div class="bgslide">
+                <div class="heading"><img class="iconimg" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/NBKRIST_logo.png/220px-NBKRIST_logo.png" alt=""><h3><i>Add Student Details:</i></h3></div>
+                <input class="inputs" type="text" name="rollnumber" placeholder="Enter Student RollNo" maxlength="10" minlength="10" required>
+                <input class="inputs" type="text" name="name" placeholder="Enter Student Name">
+                <input class="inputs" type="text" name="mobileno" placeholder="Enter Student PhoneNo" maxlength="10" required>
+                <input class="inputs" type="text" name="fmobileno" placeholder="Enter Father PhoneNo" maxlength="10" required>
+                <input class="inputs" type="date" name="dob" required>
+                <select class="inputs" name="standerd" required>
+                    <option>Year Of Student:</option>
+                    <option value="1st">I Year</option>
+                    <option value="2nd">II Year</option>
+                    <option value="3rd">III Year</option>
+                    <option value="4th">IV Year</option>
+                </select>
+                <select class="inputs" name="branch" required>
+                    <option>Branch Of Student:</option>
+                    <option value="CSE">Cse</option>
+                    <option value="ECE">Ece</option>
+                    <option value="EEE">Eee</option>
+                    <option value="CIVIL">Civil</option>
+                    <option value="MECH">Mech</option>
+                </select>
+                <input class="btn btn-primary button" type="submit">
+                <input class="btn btn-info button" type="reset">
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

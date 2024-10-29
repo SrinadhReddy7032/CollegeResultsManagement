@@ -1,0 +1,47 @@
+.sri{
+    background-image: url("https://nbkrist.co.in/images/csebuilding.JPG");
+    height: 100vh;
+    background-size: cover;
+}
+.h1
+{
+    text-align: center;
+}
+.h{
+    text-align: center;
+    background-color:rgb(180, 135, 222);
+    color:aqua;
+    
+}
+.button
+{
+    margin: 30px;
+}
+.main{
+    margin: 70px;
+}
+.resimg
+{
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 20px;
+}
+.about
+{
+    background-color: rgb(140, 233, 126);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.marqee{
+    background-color: aqua;
+    color: red;
+}
+.marqeeimg
+{
+    height: 20px;
+    width: 40px;
+    margin-right: 20px;
+    border-radius:200px;
+}
